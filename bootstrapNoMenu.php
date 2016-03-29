@@ -47,11 +47,11 @@ $result = $conn->query($sql);
 $dati = $result->fetch_assoc();
 ?>
 <!-- sono classi predefinite, inverse vuol dire sfondo scuro
-	quella di default  chiara -->
+	quella di default Â chiara -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
   
-  <!-- questo  l header contiene gli elementi che devono essere visibili anche quando la barra  minimizzata per i display di piccole dimensioni -->
+  <!-- questo Â l header contiene gli elementi che devono essere visibili anche quando la barra Â minimizzata per i display di piccole dimensioni -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -141,11 +141,6 @@ $dati = $result->fetch_assoc();
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-8">
-          <div class="well">
-            <p>Text</p> 
-          </div>
-        </div>
         <div class="col-sm-4">
           <div class="well">
             <h4>Iva</h4> 
